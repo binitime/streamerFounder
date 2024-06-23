@@ -11,8 +11,7 @@
 # production
 /build
 
-#env
-# .env 라 적어야 하나, API 키를 이미 commit해버려서 수정.
+.env
 
 # misc
 .DS_Store
