@@ -1,0 +1,171 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/*css*/
+
+body {
+  font-family: Arial, sans-serif; /* 기본 글꼴 설정 */
+  background-color: #0A5C73 !important; /* 청록색 배경 */
+  color: #ADD8E6; /* 텍스트 색상 */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  }
+  
+  header, footer {
+  text-align: center;
+  padding: 20px;
+  }
+  
+  main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  
+  .logo {
+  width: 50%;
+  display: flex;
+  justify-content: center; /* 이미지를 수평 중앙에 정렬 */
+  align-items: center; /* 이미지를 수직 중앙에 정렬 */
+  border-radius: 25px;
+  overflow: hidden;
+  padding: 5px 10px;
+  margin: 0 auto; /* p 태그 자체를 페이지의 중앙에 배치 */
+  }
+  
+  /* 이미지 가져오기 css 
+  .search-button {
+    background-image: url('images/searchButton.png'); 
+    background-image: no-repeat; 
+    background-size: 100% 100%;
+    } 
+*/
+  /* 검색 박스 css */
+  
+  .search-box {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  background-color: #2B768F;
+  border-radius: 25px;
+  overflow: hidden;
+  padding: 5px 10px;
+  }
+  
+  input[type="text"] {
+  flex: 1;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  color: #ADD8E6;
+  background: #2B768F;
+  outline: none;
+  }
+  
+  input::placeholder {
+  color: #ADD8E6;
+  opacity: 1;
+  }
+  
+  .search-button {
+  width: 40px;
+  height: 40px;
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+  
+  .search-button img {
+  width: 100%;
+  height: auto;
+  }
+  
+  /* 로그인/회원가입 css */
+  
+  header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #0A5C73; /* 헤더의 배경색 */
+  }
+  
+  .auth-buttons {
+  display: flex;
+  gap: 10px; /* 버튼 사이의 간격 */
+  }
+  
+  .login-button, .signup-button {
+  padding: 8px 16px;
+  font-size: 16px;
+  color: #ADD8E6;
+  background-color: #2B768F; /* 버튼 배경색 */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  }
+  
+  .login-button:hover, .signup-button:hover {
+  background-color: #1E5768; /* 버튼 호버 시 색상 변경 */
+  }
+
+  /* 로그인/회원가입 css */
+  
+  .login-container {
+      background-color: #2B768F;
+      padding: 20px;
+      border-radius: 8px;
+      width: 300px;
+  }
+  
+  .input-group {
+      margin-bottom: 10px;
+  }
+  
+  .input-group input {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      
+  }
+  
+  .button-group button {
+      width: calc(50% - 5px);
+      padding: 10px;
+      border: none;
+      color: white;
+      background-color: #1E5768;
+      border-radius: 5px;
+      cursor: pointer;
+  }
+  
+  .button-group button:hover {
+      background-color: #163D4F;
+  }
+  
+  .button-group {
+      display: flex;
+      justify-content: space-between;
+  }
+ 
